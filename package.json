@@ -1,0 +1,26 @@
+{
+  "name": "devops_node",
+  "version": "1.0.0",
+  "description": "ci cd for node app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jainudit012/devops_node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jainudit012/devops_node/issues"
+  },
+  "homepage": "https://github.com/jainudit012/devops_node#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "supertest": "^3.4.2"
+  }
+}
