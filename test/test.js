@@ -6,6 +6,6 @@ describe('GET /', function() {
         request(router).get('/api').expect('Hello World 2', done)
     })
 
-})
-
 afterEach(router.close())
+
+})
