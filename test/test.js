@@ -1,5 +1,5 @@
 const request = require('supertest')
-const router = require('../index.js')
+const router = require('../index')
 
 describe('GET /', function() {
     it('respond with Hello World 2', function(done) {
@@ -7,3 +7,5 @@ describe('GET /', function() {
     })
 
 })
+
+afterEach(router.close())
